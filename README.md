@@ -200,11 +200,4 @@ Current versions of lumasight store **no passwords, no face embeddings, and no i
 - **Manual updates only**: Without an in-app updater or network entitlements, users pull/build updates manually from [Releases](https://github.com/techashutosh03/lumasight/releases).
 
 ---
-
-## 🙏 Acknowledgements & License
-
-- **[The Boring Notch](https://github.com/TheBoredTeam/boring.notch)** — notch window layout concepts.
-- **Original Base Project** — [Jonathan Zhou](LICENSE).
-- **Repository Distribution** — [`techashutosh03/lumasight`](https://github.com/techashutosh03/lumasight).
-
 Released under the [MIT License](LICENSE).
