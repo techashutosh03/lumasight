@@ -1,0 +1,68 @@
+<svg width="1200" height="220" viewBox="0 0 1200 220" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="stripBg" x1="0" y1="0" x2="1200" y2="220" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#070B14"/>
+      <stop offset="100%" stop-color="#0D1424"/>
+    </linearGradient>
+    <linearGradient id="tileBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#152238"/>
+      <stop offset="100%" stop-color="#0C1423"/>
+    </linearGradient>
+    <linearGradient id="blueAccent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#04B5FE"/>
+      <stop offset="100%" stop-color="#4181FE"/>
+    </linearGradient>
+    <filter id="tileShadow" x="-10%" y="-10%" width="125%" height="140%">
+      <feDropShadow dx="0" dy="12" stdDeviation="10" flood-color="#000000" flood-opacity="0.5"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="220" rx="22" fill="url(#stripBg)"/>
+  <rect x="0.75" y="0.75" width="1198.5" height="218.5" rx="21.25" stroke="rgba(255,255,255,0.10)" stroke-width="1.5"/>
+
+  <!-- Tile 1 -->
+  <g filter="url(#tileShadow)">
+    <rect x="28" y="34" width="268" height="154" rx="16" fill="#05080F"/>
+    <rect x="28" y="26" width="268" height="154" rx="16" fill="url(#tileBg)" stroke="#38BDF8" stroke-opacity="0.45" stroke-width="1.4"/>
+    <rect x="48" y="46" width="38" height="38" rx="11" fill="url(#blueAccent)"/>
+    <path d="M67 55 L76 59 V66 C76 72 72 76 67 78 C62 76 58 72 58 66 V59 L67 55 Z" stroke="#FFFFFF" stroke-width="2" fill="none" stroke-linejoin="round"/>
+    <text x="48" y="110" fill="#F8FAFC" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="15" font-weight="700">App Sandbox + Hardened</text>
+    <text x="48" y="132" fill="#94A3B8" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="12">Container isolated; no Full Disk</text>
+    <text x="48" y="150" fill="#94A3B8" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="12">Access or Accessibility APIs.</text>
+  </g>
+
+  <!-- Tile 2 -->
+  <g filter="url(#tileShadow)">
+    <rect x="320" y="34" width="268" height="154" rx="16" fill="#05080F"/>
+    <rect x="320" y="26" width="268" height="154" rx="16" fill="url(#tileBg)" stroke="#10B981" stroke-opacity="0.45" stroke-width="1.4"/>
+    <rect x="340" y="46" width="38" height="38" rx="11" fill="#10B981"/>
+    <rect x="350" y="57" width="18" height="16" rx="4" stroke="#FFFFFF" stroke-width="2"/>
+    <circle cx="359" cy="65" r="2.5" fill="#FFFFFF"/>
+    <text x="340" y="110" fill="#F8FAFC" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="15" font-weight="700">RAM-Only Frames</text>
+    <text x="340" y="132" fill="#94A3B8" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="12">Zero stored face embeddings,</text>
+    <text x="340" y="150" fill="#94A3B8" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="12">photos, or biometric profiles.</text>
+  </g>
+
+  <!-- Tile 3 -->
+  <g filter="url(#tileShadow)">
+    <rect x="612" y="34" width="268" height="154" rx="16" fill="#05080F"/>
+    <rect x="612" y="26" width="268" height="154" rx="16" fill="url(#tileBg)" stroke="#818CF8" stroke-opacity="0.45" stroke-width="1.4"/>
+    <rect x="632" y="46" width="38" height="38" rx="11" fill="#6366F1"/>
+    <circle cx="651" cy="65" r="9" stroke="#FFFFFF" stroke-width="2"/>
+    <line x1="644" y1="72" x2="658" y2="58" stroke="#FFFFFF" stroke-width="2.2" stroke-linecap="round"/>
+    <text x="632" y="110" fill="#F8FAFC" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="15" font-weight="700">100% Offline Build</text>
+    <text x="632" y="132" fill="#94A3B8" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="12">Zero network entitlements, zero</text>
+    <text x="632" y="150" fill="#94A3B8" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="12">telemetry, no runtime downloads.</text>
+  </g>
+
+  <!-- Tile 4 -->
+  <g filter="url(#tileShadow)">
+    <rect x="904" y="34" width="268" height="154" rx="16" fill="#05080F"/>
+    <rect x="904" y="26" width="268" height="154" rx="16" fill="url(#tileBg)" stroke="#F59E0B" stroke-opacity="0.45" stroke-width="1.4"/>
+    <rect x="924" y="46" width="38" height="38" rx="11" fill="#F59E0B"/>
+    <path d="M936 65 H950 M943 58 V72" stroke="#FFFFFF" stroke-width="2.2" stroke-linecap="round"/>
+    <text x="924" y="110" fill="#F8FAFC" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="15" font-weight="700">Public Apple APIs Only</text>
+    <text x="924" y="132" fill="#94A3B8" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="12">No SkyLight, no Keychain creds,</text>
+    <text x="924" y="150" fill="#94A3B8" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="12">no Mac login bypass.</text>
+  </g>
+</svg>
